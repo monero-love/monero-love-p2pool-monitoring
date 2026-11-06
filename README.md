@@ -2,6 +2,16 @@
 
 Configuration files and examples from [How we monitor P2Pool with Grafana](https://monero.love/guides/p2pool-monitoring/) on monero.love.
 
+## Screenshots and charts
+
+Recorded Grafana views of Pool A on November 4, 2026, from 14:00 to 20:00 UTC. The public article uses a neutral node name. The screenshots show the production monitoring view, which includes more fields than the small collector supplied here.
+
+[![Real Grafana overview of P2Pool local hashrate, connections, sidechain shares and data freshness](docs/screenshots/p2pool-overview.webp)](docs/screenshots/p2pool-overview.webp)
+
+Four views of the same six-hour interval. Each image opens at full resolution. Hashrate, connections, share counters and file age answer different questions.
+
+[View all 8 images and captions](SCREENSHOTS.md).
+
 ## Files
 
 | File | Origin |

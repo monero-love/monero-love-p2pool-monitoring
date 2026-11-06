@@ -21,7 +21,7 @@
     },
     "README.md": {
       "kind": "packaging documentation",
-      "sha256": "f88559749fe0404ea75485cf1fbc5a7e569d48945eecbd5c0f21225c49a81368"
+      "sha256": "1b18389f79d4bf9274c983ff0276b072e07f6d1a9be14e3a411cdd35bd0ccded"
     },
     "p2pool-collector.py": {
       "download": "https://monero.love/downloads/p2pool-monitoring-examples.zip",
@@ -64,7 +64,95 @@
     },
     "VALIDATION.md": {
       "kind": "packaging validation report",
-      "sha256": "2827743ce9f334e7b62315b5bdc1513703096457480c15f2bf54ca6c7dcb9cfc"
+      "sha256": "fcaf2cf93fe97cc10068bd0cdcffd59006adf01801503409948a6489c547a10c"
+    },
+    "docs/screenshots/p2pool-overview.webp": {
+      "kind": "published Grafana screenshot",
+      "source_url": "https://monero.love/images/p2pool-overview.webp",
+      "source_article": "https://monero.love/guides/p2pool-monitoring/",
+      "sha256": "7d748acba48aa964594247b797c993e56f41405644dfc6046f8a42765b6328cd",
+      "dimensions": [
+        1568,
+        752
+      ]
+    },
+    "docs/screenshots/p2pool-local-hashrate.webp": {
+      "kind": "published Grafana screenshot",
+      "source_url": "https://monero.love/images/p2pool-local-hashrate.webp",
+      "source_article": "https://monero.love/guides/p2pool-monitoring/",
+      "sha256": "b62bfb80bb433279d3e218d4a969b00443dea9544a34e3bc6ffe38bc26fe5033",
+      "dimensions": [
+        1568,
+        890
+      ]
+    },
+    "docs/screenshots/p2pool-connections.webp": {
+      "kind": "published Grafana screenshot",
+      "source_url": "https://monero.love/images/p2pool-connections.webp",
+      "source_article": "https://monero.love/guides/p2pool-monitoring/",
+      "sha256": "3f4d943339a291a2a40b41be34409a1ed244542f1f2468e473df87b67d17da14",
+      "dimensions": [
+        1568,
+        890
+      ]
+    },
+    "docs/screenshots/p2pool-stratum-submissions.webp": {
+      "kind": "published Grafana screenshot",
+      "source_url": "https://monero.love/images/p2pool-stratum-submissions.webp",
+      "source_article": "https://monero.love/guides/p2pool-monitoring/",
+      "sha256": "d0f7085a6521e2355fbf4336376a0c15b790443c6b0fcfa4dac14507f6d3ddb5",
+      "dimensions": [
+        1568,
+        890
+      ]
+    },
+    "docs/screenshots/p2pool-sidechain-shares.webp": {
+      "kind": "published Grafana screenshot",
+      "source_url": "https://monero.love/images/p2pool-sidechain-shares.webp",
+      "source_article": "https://monero.love/guides/p2pool-monitoring/",
+      "sha256": "dae9f843142933eab306a238f0efa1d1ca0e40f310676bef9dfede5c9949a99e",
+      "dimensions": [
+        1568,
+        890
+      ]
+    },
+    "docs/screenshots/p2pool-share-effort.webp": {
+      "kind": "published Grafana screenshot",
+      "source_url": "https://monero.love/images/p2pool-share-effort.webp",
+      "source_article": "https://monero.love/guides/p2pool-monitoring/",
+      "sha256": "141ea30654421e48b7102ff3186e4105c3315396a5b9921063a5341efe63be7e",
+      "dimensions": [
+        1568,
+        890
+      ]
+    },
+    "docs/screenshots/p2pool-data-freshness.webp": {
+      "kind": "published Grafana screenshot",
+      "source_url": "https://monero.love/images/p2pool-data-freshness.webp",
+      "source_article": "https://monero.love/guides/p2pool-monitoring/",
+      "sha256": "7165ad50671fa95f2da0aefb29689d7f66ba247f52cb20fef5272a9385fde9c0",
+      "dimensions": [
+        1568,
+        890
+      ]
+    },
+    "docs/screenshots/p2pool-daemon-events.webp": {
+      "kind": "published Grafana screenshot",
+      "source_url": "https://monero.love/images/p2pool-daemon-events.webp",
+      "source_article": "https://monero.love/guides/p2pool-monitoring/",
+      "sha256": "b1c7dfe6da3ec0f62e1601c78e985e0ae4d7ef5ce1d3753a6026ea8559936596",
+      "dimensions": [
+        1568,
+        890
+      ]
+    },
+    "SCREENSHOTS.md": {
+      "kind": "gallery with source article captions",
+      "sha256": "b12af14ed23456354ff381cee5f3b1db81164189a99a0f17ede03e8905eab105"
+    },
+    "docs/screenshots/manifest.json": {
+      "kind": "image provenance and dimensions",
+      "sha256": "3c6270771b3559804ce3a2a4a66abedf1af7630cb985b32a174f084b1c8f400d"
     }
   }
 }

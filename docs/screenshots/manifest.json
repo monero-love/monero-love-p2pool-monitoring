@@ -1,0 +1,122 @@
+[
+  {
+    "alt": "Real Grafana overview of P2Pool local hashrate, connections, sidechain shares and data freshness",
+    "url": "/images/p2pool-overview.webp",
+    "dimensions": [
+      1568,
+      752
+    ],
+    "bytes": 95624,
+    "caption": "Four views of the same six-hour interval. Each image opens at full resolution. Hashrate, connections, share counters and file age answer different questions.",
+    "source_article": "https://monero.love/guides/p2pool-monitoring/",
+    "path": "docs/screenshots/p2pool-overview.webp",
+    "sha256": "7d748acba48aa964594247b797c993e56f41405644dfc6046f8a42765b6328cd",
+    "source_url": "https://monero.love/images/p2pool-overview.webp",
+    "kind": "published Grafana screenshot"
+  },
+  {
+    "alt": "Real Grafana graph of P2Pool local hashrate estimates over 15 minutes, one hour and 24 hours",
+    "url": "/images/p2pool-local-hashrate.webp",
+    "dimensions": [
+      1568,
+      890
+    ],
+    "bytes": 79790,
+    "caption": "The 15-minute estimate varies much more than the 24-hour estimate. The vertical scale starts around 30 kH/s, not zero. That makes the changes easier to see but visually enlarges their proportion.",
+    "source_article": "https://monero.love/guides/p2pool-monitoring/",
+    "path": "docs/screenshots/p2pool-local-hashrate.webp",
+    "sha256": "b62bfb80bb433279d3e218d4a969b00443dea9544a34e3bc6ffe38bc26fe5033",
+    "source_url": "https://monero.love/images/p2pool-local-hashrate.webp",
+    "kind": "published Grafana screenshot"
+  },
+  {
+    "alt": "Real Grafana graph separating P2Pool Stratum connections from total and incoming P2P connections",
+    "url": "/images/p2pool-connections.webp",
+    "dimensions": [
+      1568,
+      890
+    ],
+    "bytes": 43598,
+    "caption": "Seven Stratum connections remain present while the total peer count moves between roughly 21 and 30. Incoming peers are included in the total, so do not add those two lines together.",
+    "source_article": "https://monero.love/guides/p2pool-monitoring/",
+    "path": "docs/screenshots/p2pool-connections.webp",
+    "sha256": "3f4d943339a291a2a40b41be34409a1ed244542f1f2468e473df87b67d17da14",
+    "source_url": "https://monero.love/images/p2pool-connections.webp",
+    "kind": "published Grafana screenshot"
+  },
+  {
+    "alt": "Real Grafana graph of the cumulative Stratum submission counter on the selected P2Pool node",
+    "url": "/images/p2pool-stratum-submissions.webp",
+    "dimensions": [
+      1568,
+      890
+    ],
+    "bytes": 12212,
+    "caption": "The Stratum counter rises steadily. It describes local submission activity, not a count of Monero blocks or payouts.",
+    "source_article": "https://monero.love/guides/p2pool-monitoring/",
+    "path": "docs/screenshots/p2pool-stratum-submissions.webp",
+    "sha256": "d0f7085a6521e2355fbf4336376a0c15b790443c6b0fcfa4dac14507f6d3ddb5",
+    "source_url": "https://monero.love/images/p2pool-stratum-submissions.webp",
+    "kind": "published Grafana screenshot"
+  },
+  {
+    "alt": "Real Grafana graph of P2Pool sidechain shares found and failed, showing found increasing from 204 to 206",
+    "url": "/images/p2pool-sidechain-shares.webp",
+    "dimensions": [
+      1568,
+      890
+    ],
+    "bytes": 8430,
+    "caption": "The found counter moves from 204 to 206 during this interval. That is an increase of two, not 206 shares found in six hours. The failed counter stays at zero.",
+    "source_article": "https://monero.love/guides/p2pool-monitoring/",
+    "path": "docs/screenshots/p2pool-sidechain-shares.webp",
+    "sha256": "dae9f843142933eab306a238f0efa1d1ca0e40f310676bef9dfede5c9949a99e",
+    "source_url": "https://monero.love/images/p2pool-sidechain-shares.webp",
+    "kind": "published Grafana screenshot"
+  },
+  {
+    "alt": "Real Grafana graph of current P2Pool share effort rising above 400 percent and then resetting, beside average effort",
+    "url": "/images/p2pool-share-effort.webp",
+    "dimensions": [
+      1568,
+      890
+    ],
+    "bytes": 18432,
+    "caption": "Current effort rises above 400% before dropping near 17:00, then rises and drops again near 19:00. Compare those drops with the increments in the share counter.",
+    "source_article": "https://monero.love/guides/p2pool-monitoring/",
+    "path": "docs/screenshots/p2pool-share-effort.webp",
+    "sha256": "141ea30654421e48b7102ff3186e4105c3315396a5b9921063a5341efe63be7e",
+    "source_url": "https://monero.love/images/p2pool-share-effort.webp",
+    "kind": "published Grafana screenshot"
+  },
+  {
+    "alt": "Real Grafana graph comparing the ages of P2Pool Stratum and P2P JSON files with the monitoring collector age",
+    "url": "/images/p2pool-data-freshness.webp",
+    "dimensions": [
+      1568,
+      890
+    ],
+    "bytes": 389338,
+    "caption": "The collector, Stratum file and P2P file have different update patterns. Grafana displays the longer durations in minutes even though the queries return seconds.",
+    "source_article": "https://monero.love/guides/p2pool-monitoring/",
+    "path": "docs/screenshots/p2pool-data-freshness.webp",
+    "sha256": "7165ad50671fa95f2da0aefb29689d7f66ba247f52cb20fef5272a9385fde9c0",
+    "source_url": "https://monero.love/images/p2pool-data-freshness.webp",
+    "kind": "published Grafana screenshot"
+  },
+  {
+    "alt": "Real Grafana graph of elapsed seconds since P2Pool last observed Monero daemon ZMQ activity",
+    "url": "/images/p2pool-daemon-events.webp",
+    "dimensions": [
+      1568,
+      890
+    ],
+    "bytes": 138788,
+    "caption": "The sampled ZMQ-silence values remain below 20 seconds here. This measures time since observed daemon activity, not peer latency.",
+    "source_article": "https://monero.love/guides/p2pool-monitoring/",
+    "path": "docs/screenshots/p2pool-daemon-events.webp",
+    "sha256": "b1c7dfe6da3ec0f62e1601c78e985e0ae4d7ef5ce1d3753a6026ea8559936596",
+    "source_url": "https://monero.love/images/p2pool-daemon-events.webp",
+    "kind": "published Grafana screenshot"
+  }
+]
