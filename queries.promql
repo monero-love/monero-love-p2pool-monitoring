@@ -1,0 +1,7 @@
+p2pool_api_up{endpoint="local/stratum"}
+p2pool_hashrate_hps{window="15m"}
+p2pool_stratum_connections
+
+rate(p2pool_stratum_shares_total[5m])
+
+time() - p2pool_api_timestamp_seconds{endpoint="local/stratum"}

@@ -1,0 +1,70 @@
+{
+  "article": "https://monero.love/guides/p2pool-monitoring/",
+  "article_source": "content/p2pool-monitoring.md",
+  "article_source_commit": "4dcdda4a523ac00f38c4cf5b0dcbee5ac64467ca",
+  "article_source_sha256": "c1ea66a6962c7828429437138b3134c14d66ea2a2e996975c94063c470375c51",
+  "bundle_source_commit": "4d9b6ca6b5a76f6f34a9141ea00d184c5a7c593f",
+  "files": {
+    ".gitignore": {
+      "kind": "local secret and generated-file exclusions",
+      "sha256": "6ab2962b7395271f48d111f0daa6f0386dc04342236a40378e1d1540c14ee9d1"
+    },
+    "ARTICLE-EXAMPLES.md": {
+      "kind": "verbatim fenced source examples",
+      "sha256": "6c11077699db57f59e6d09ea18b7d2c395abe61389649c8b76068b3a728e657c"
+    },
+    "BUNDLE-README.md": {
+      "download": "https://monero.love/downloads/p2pool-monitoring-examples.zip",
+      "member": "README.md",
+      "kind": "verbatim public download asset",
+      "sha256": "044171755e559fbd3fb49b4b13a7291bc3642d542b962c3d017b184fc60f0a8a"
+    },
+    "README.md": {
+      "kind": "packaging documentation",
+      "sha256": "f88559749fe0404ea75485cf1fbc5a7e569d48945eecbd5c0f21225c49a81368"
+    },
+    "p2pool-collector.py": {
+      "download": "https://monero.love/downloads/p2pool-monitoring-examples.zip",
+      "member": "p2pool-collector.py",
+      "kind": "verbatim public download asset",
+      "sha256": "6801a863170124fdd8a0b12fedba51ba35e98ed20bf72ccd5852f5497acaedf6"
+    },
+    "p2pool-data-api.args": {
+      "article_block": 1,
+      "source_line": 46,
+      "kind": "verbatim code block",
+      "sha256": "74168a80eeced0ebc62fca5584a6a7766da2941d2a182aba999707dad4111c74"
+    },
+    "p2pool-monitor.service": {
+      "download": "https://monero.love/downloads/p2pool-monitoring-examples.zip",
+      "member": "p2pool-monitor.service",
+      "kind": "verbatim public download asset",
+      "sha256": "a3d0067ce227cff860c63d2d42c9cda58738e29d969049c670e1ee5996719b9c"
+    },
+    "p2pool-monitor.timer": {
+      "download": "https://monero.love/downloads/p2pool-monitoring-examples.zip",
+      "member": "p2pool-monitor.timer",
+      "kind": "verbatim public download asset",
+      "sha256": "4a96e96dc853f7ed7870f68080fdc49ee1f249d374e0a396288f43f16b3e107a"
+    },
+    "queries.promql": {
+      "kind": "verbatim query blocks",
+      "article_blocks": [
+        3,
+        4,
+        5
+      ],
+      "sha256": "66e76ba7db43efd5be2ee2f4d0f0082a2b8ecfe239b62ac46e0fa3450c4efda8"
+    },
+    "test_collector.py": {
+      "download": "https://monero.love/downloads/p2pool-monitoring-examples.zip",
+      "member": "test_collector.py",
+      "kind": "verbatim public download asset",
+      "sha256": "c82ad1a0279e20b135eae714719a67f020218999ef7260c36ae5d5b5f2da15d6"
+    },
+    "VALIDATION.md": {
+      "kind": "packaging validation report",
+      "sha256": "2827743ce9f334e7b62315b5bdc1513703096457480c15f2bf54ca6c7dcb9cfc"
+    }
+  }
+}

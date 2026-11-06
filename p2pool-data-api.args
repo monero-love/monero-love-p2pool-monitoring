@@ -1,0 +1,2 @@
+--data-api /var/lib/p2pool/api
+--local-api

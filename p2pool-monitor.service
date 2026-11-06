@@ -1,0 +1,16 @@
+[Unit]
+Description=Collect selected P2Pool file API metrics
+
+[Service]
+Type=oneshot
+User=p2pool-monitor
+Group=p2pool-monitor
+SupplementaryGroups=p2pool
+ExecStart=/usr/bin/python3 /usr/local/lib/p2pool-monitor/p2pool-collector.py
+Environment=P2POOL_API_DIR=/var/lib/p2pool/api
+Environment=METRICS_DIR=/var/lib/p2pool-monitor/textfile
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/p2pool-monitor/textfile
