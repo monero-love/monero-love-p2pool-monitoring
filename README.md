@@ -25,6 +25,10 @@ Four views of the same six-hour interval. Each image opens at full resolution. H
 | `queries.promql` | verbatim query blocks |
 | `test_collector.py` | verbatim public download asset |
 
+## Importable dashboard
+
+`p2pool-dashboard.json` provides 12 panels for the included collector. See [DASHBOARD.md](DASHBOARD.md) for import, data source selection and panel limits.
+
 ## Setup
 
 Follow [BUNDLE-README.md](BUNDLE-README.md) for service accounts, API-file permissions, textfile paths, timer setup and the shared monitoring components. `p2pool-data-api.args` is a reminder of arguments to append to your existing P2Pool invocation. It is not an input file accepted by P2Pool. Preserve your wallet, daemon, sidechain and networking settings.

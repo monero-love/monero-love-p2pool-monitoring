@@ -20,8 +20,8 @@
       "sha256": "044171755e559fbd3fb49b4b13a7291bc3642d542b962c3d017b184fc60f0a8a"
     },
     "README.md": {
-      "kind": "packaging documentation",
-      "sha256": "1b18389f79d4bf9274c983ff0276b072e07f6d1a9be14e3a411cdd35bd0ccded"
+      "kind": "updated packaging documentation",
+      "sha256": "6655283a0f2fb5f87e468482524e40ef5f6fa0b7cf282e604c13c4076f5613a2"
     },
     "p2pool-collector.py": {
       "download": "https://monero.love/downloads/p2pool-monitoring-examples.zip",
@@ -63,8 +63,8 @@
       "sha256": "c82ad1a0279e20b135eae714719a67f020218999ef7260c36ae5d5b5f2da15d6"
     },
     "VALIDATION.md": {
-      "kind": "packaging validation report",
-      "sha256": "fcaf2cf93fe97cc10068bd0cdcffd59006adf01801503409948a6489c547a10c"
+      "kind": "updated packaging documentation",
+      "sha256": "d0ff5325dd3e45c21eddf66d7a5c1e182915b44d185f389b090b1c8a915645d0"
     },
     "docs/screenshots/p2pool-overview.webp": {
       "kind": "published Grafana screenshot",
@@ -153,6 +153,15 @@
     "docs/screenshots/manifest.json": {
       "kind": "image provenance and dimensions",
       "sha256": "3c6270771b3559804ce3a2a4a66abedf1af7630cb985b32a174f084b1c8f400d"
+    },
+    "DASHBOARD.md": {
+      "kind": "dashboard packaging addition",
+      "sha256": "faf36a9676e5489415ac41ee0e54c0904f8ffc63502d828a5a653dff1da7ab4f"
+    },
+    "p2pool-dashboard.json": {
+      "kind": "dashboard packaging addition",
+      "sha256": "9ce90c32869e950b9bdc92ade5d2a1f912e164426407427c758025f5a7bc4db1"
     }
-  }
+  },
+  "dashboard_added_at_utc": "2026-11-21T18:16:04.578385+00:00"
 }

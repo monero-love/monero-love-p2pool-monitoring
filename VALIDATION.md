@@ -19,3 +19,7 @@ These checks cover packaging and the stated test scope. They do not establish th
 ## Screenshot addition
 
 Added 8 existing public images. All image files decoded successfully, matched their published source bytes and were visually reviewed. Relative README and gallery image links were checked. Source URLs, original dimensions and hashes are recorded in `docs/screenshots/manifest.json`. This change adds documentation and assets only.
+
+## Importable dashboard addition
+
+Checked 2026-11-21T18:16:04.578385+00:00 UTC. All 7 collector tests passed. Dashboard JSON parsed, 12 panel IDs were unique, the timezone is UTC, and every queried P2Pool metric family exists in the supplied collector. No live Grafana import, PromQL server execution or browser rendering was performed.
